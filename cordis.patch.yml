@@ -1,0 +1,6 @@
+- insert:
+    - id: fat-fish-deployment
+      name: fat-fish-deployment-protocol
+      config:
+        enabled: true
+        volume: 0.72

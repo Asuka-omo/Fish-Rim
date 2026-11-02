@@ -1,0 +1,46 @@
+{
+  "name": "fat-fish-deployment-protocol",
+  "type": "module",
+  "main": "plugin/index.js",
+  "exports": {
+    ".": "./plugin/index.js",
+    "./client": "./dist/client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "version": "2.0.4",
+  "private": true,
+  "description": "Fish Rim \u2014 interactive hangar startup for DeepSeek Harness Desktop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asuka-omo/Fish-Rim.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepack": "node scripts/build.mjs",
+    "test": "node tests/timing.mjs && node tests/timing.mjs --manual"
+  },
+  "files": [
+    "plugin",
+    "dist/client.js",
+    "public",
+    "cordis.patch.yml",
+    "LICENSE",
+    "Font-OFL.txt",
+    "vendor/three/LICENSE",
+    "docs/CREDITS.md"
+  ],
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" role="img" aria-labelledby="t d">
+<title id="t">Fish Rim · Hangar Control</title><desc id="d">香港机库的部署终端，右侧是头部颈圈与承重座的剖面示意。</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#20323b" stroke-width="1"/></pattern><linearGradient id="bg"><stop stop-color="#071218"/><stop offset=".62" stop-color="#101e28"/><stop offset="1" stop-color="#081117"/></linearGradient></defs>
+<rect width="1100" height="260" rx="5" fill="url(#bg)"/><path d="M628 0h472v260H580z" fill="url(#grid)"/>
+<g font-family="monospace"><text x="42" y="43" fill="#83c8cf" font-size="14" letter-spacing="3">HONG KONG BASE   /   HANGAR 01</text>
+<text x="38" y="142" font-family="system-ui,sans-serif" font-weight="750" fill="#eef4f1" font-size="84">FISH RIM</text>
+<path d="M44 170h465" stroke="#497380"/><text x="42" y="207" fill="#c2d3d5" font-size="18" letter-spacing="2">FAT FISH DEPLOYMENT PROTOCOL</text>
+<g fill="none" stroke-linejoin="round"><path d="M754 0v49m122-49v49" stroke="#74909d" stroke-width="3"/>
+<path d="m728 49 29-19h118l29 19-18 27H745Z" fill="#254357" stroke="#81b9cd" stroke-width="2"/>
+<path d="M754 81h123l-12 23h-99Z" fill="#5a7b90" stroke="#a7cedb"/>
+<path d="M774 112h83v18h-83z" fill="#254256" stroke="#76a5bc"/>
+<path d="m727 156 23 20h133l27-20v35l-24 17H748l-21-17Z" fill="#233947" stroke="#7aa1b2" stroke-width="2"/>
+<path d="M741 159h151m-133 32h112m-112 5h112" stroke="#698899"/><path d="M815 106v45m-7-9 7 9 7-9" stroke="#f0b763" stroke-width="2"/>
+<path d="M901 65h44l19-16h94M905 178h39l22 21h92" stroke="#536f7a"/></g>
+<text x="968" y="42" fill="#8cbac4" font-size="11">HEAD MODULE</text><text x="968" y="216" fill="#8cbac4" font-size="11">SEAT / LOCK</text>
+<circle cx="817" cy="231" r="3" fill="#f2b462"/><text x="830" y="235" fill="#d1a869" font-size="11" letter-spacing="2">FF-01</text></g>
+</svg>

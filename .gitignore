@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tgz
+*.zip
+public/scene.js
+public/assets/
+public/audio/
+public/globe/
+public/media/
