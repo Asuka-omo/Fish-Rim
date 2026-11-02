@@ -1,4 +1,6 @@
-![Fish Rim 机库部署控制台](docs/hangar.svg)
+<p align="center">
+  <a href="docs/fat-fish-cover.jpg"><img src="docs/fat-fish-cover.jpg" width="250" alt="蓝发肥鱼迎面挥拳的插画"></a>
+</p>
 
 # Fish Rim · 大肥鱼出击
 

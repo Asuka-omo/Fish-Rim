@@ -10,7 +10,7 @@ if hashlib.sha256(archive.read_bytes()).hexdigest()!=info['sha256']:
     raise ValueError('Expected the original verified 2.0.4 package.')
 name=f"Fish-Rim-{info['version']}-Windows"
 files={f.name:f for f in kit.iterdir() if f.is_file()}
-files.update({n:repo/n for n in ['README.md','LICENSE','docs/hangar.svg','docs/CREDITS.md','Font-OFL.txt','vendor/three/LICENSE']})
+files.update({n:repo/n for n in ['README.md','LICENSE','docs/fat-fish-cover.jpg','docs/CREDITS.md','Font-OFL.txt','vendor/three/LICENSE']})
 files[archive.name]=archive
 with zipfile.ZipFile(out/(name+'.zip'),'w',zipfile.ZIP_DEFLATED) as z:
     for n,p in sorted(files.items()):
