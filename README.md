@@ -4,7 +4,7 @@
 
 # Fish Rim · 大肥鱼出击
 
-一款为 **DeepSeek Harness Desktop** 制作的交互式开屏。客户端启动后，你会在香港基地的观察台看见蓝白色的肥鱼头舱沿吊轨下降。颈圈就位时，右下角的终端等你签发接驳命令。再次授权，机库门打开，载台将肥鱼送出门外。
+一款为 **DeepSeek Harness Desktop** 制作的交互式开屏。
 
 > *Fat Fish, ready to fight.*
 
