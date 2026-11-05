@@ -22,7 +22,9 @@
 
 ## Windows 安装
 
-安装文件名为 **Fish-Rim-2.0.4-Windows.zip**。仓库的源码 ZIP 用于开发。已取得完整安装包的用户可以离线安装；公开发版记录可在 [GitHub Releases](https://github.com/Asuka-omo/Fish-Rim/releases) 查看。
+**[下载 Fish Rim 2.0.4 Windows 完整安装包](https://github.com/Asuka-omo/Fish-Rim/releases/download/v2.0.4/Fish-Rim-2.0.4-Windows.zip)**
+
+安装包内附影片、音轨和安装脚本，解压后即可离线安装。开发者可以下载仓库源码，并按下方说明导入素材后构建。[发布页与校验文件](https://github.com/Asuka-omo/Fish-Rim/releases/tag/v2.0.4)
 
 1. 至少启动过一次 DSH Desktop，然后从 **应用 → 退出** 完全关闭客户端。
 2. 将 Windows 安装包完整解压到同一文件夹，双击 **Install.cmd**。
@@ -37,7 +39,7 @@
 
 ## 从源码构建
 
-需要 Node.js 20+、npm，以及用于导入本地素材的 Python 3。先取得有权使用的 2.0.4 插件素材包，再在仓库根目录运行：
+需要 Node.js 20+、npm 和 Python 3。先从 Windows 安装包中解压 `fat-fish-deployment-protocol-2.0.4.tgz`，再在仓库根目录运行以下命令。请把示例路径换成实际解压位置。
 
 ```powershell
 npm ci
